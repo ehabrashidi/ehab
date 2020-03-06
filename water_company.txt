@@ -1,0 +1,42 @@
+create table fahs (id int(25), cust_c int(50), date_of_day DATE );
+create table kzan (id int(25), cust_c int(50), date_of_day DATE );
+create table shakwa (id int(25), cust_c int(50), date_of_day DATE , shakwa_r char(255) );
+create table readdata (id int(25), cust_c int(50), date_of_day DATE , reading char(255) );
+create table userdata (name char(255), address char(255), username char(255), cust_c int(25));
+create table visa_details (v_NO int (11), name char(255), password char(255), balance decimal (16,2));
+create table visa_payment (v_NO int (11), name char(255), balance decimal (16,2), date_of_day DATE, total_due decimal(16,2));
+create table madionia (count int (11), value decimal(16,2), username char (255), cust_c int (25), id int(25));
+create table user (id int (11), tel char (25) , address char (255), name char (255), username char(255),password char(255));
+insert into user (id,tel,address,name,username,password) values(1,01002265321,'haram','ahmed','ahmed','ahmed'),
+(2,01002265322,'giza','mohamed','mohamed','mohamed'),
+(3,01002265323,'cairo','basem','basem','basem'),
+(4,01002265324,'cairo','ibrahim','ibrahim','ibrahim');
+insert into userdata (name,address,username,cust_c)values('ahmed','haram','ahmed',1),
+('mohamed','giza','mohamed',2);
+insert into madionia(count,value,username,cust_c)values(2,100000,"ahmed",1),(6,200000,"mohamed",2);
+insert into visa_details (v_NO,name , password,balance) values ('1001','ahmed','1001',500000),('1002','mohamed','1002',800000);
+
+
+
+
+
+use water_company;
+show tables;
+select * from fahs;
+select * from kzan;
+select * from shakwa;
+select * from readdata;
+select * from userdata;
+select * from visa_details;
+select * from visa_payment;
+select * from madionia;
+select * from user;
+
+
+
+
+
+
+
+
+delete * from shakwa;

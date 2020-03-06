@@ -1,0 +1,37 @@
+<style>
+
+
+.button1 {
+    background-color: #059CBA;
+    border: none;
+    color: black;
+    padding: 5px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 26px;
+    margin: 5px 5px;
+cursor: pointer;
+}
+.toprighty6 {
+    position: absolute;
+    top: 5px;
+    right: 362px;
+    font-size: 14px;
+}
+.toprighty7 {
+    position: absolute;
+    top: 55px;
+    right: 300px;
+    font-size: 14px;
+}
+.toprightyz3 {
+    position: absolute;
+    top: 165px;
+    right:300px;
+    font-size: 14px;
+}
+
+
+	</style>
+
